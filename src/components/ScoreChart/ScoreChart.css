@@ -1,0 +1,46 @@
+.scoreChartContainer {
+	width: 18vw;
+	height: 25.5vh;
+	background-color: #fbfbfb;
+	border-radius: 5px;
+	position: relative;
+	z-index: -10;
+}
+
+.scoreChartTitle {
+	font-size: 1rem;
+	font-weight: 500;
+	color: #20253a;
+	position: absolute;
+	top: 0.5rem;
+	left: 1.5rem;
+	width: 150px;
+	text-align: left;
+}
+
+.objectivContainer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+
+.objectivContainer p {
+	margin: 0;
+	font-size: 1rem;
+	color: #74798c;
+}
+
+.objectivContainer p strong {
+	font-size: 1.6rem;
+	color: #282d30;
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1300px) {
+	.scoreChartTitle {
+		top: 0.25rem;
+		left: 1rem;
+	}
+}

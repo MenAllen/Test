@@ -1,0 +1,43 @@
+.activityChartContainer {
+	width: 58vw;
+	height: 31.5vh;
+	background-color: #fbfbfb;
+	border-radius: 5px;
+	position: relative;
+}
+
+.activityChartTitle {
+	font-size: 15px;
+	font-weight: 500;
+	color: #20253a;
+	margin: 0;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+.activityTooltipStyle {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: red;
+	width: 39px;
+	height: 63px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.activityTooltipStyle p {
+	color: white;
+	opacity: 1;
+	font-size: 8px;
+	font-weight: 500;
+	text-align: center;
+	border: none;
+}
+
+.activityLegendColor {
+	color: #74798c;
+	font-size: 14px;
+	top: 20px;
+}

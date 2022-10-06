@@ -1,0 +1,44 @@
+.sessionsChartContainer {
+	width: 18vw;
+	height: 25.5vh;
+	background-color: #ff0000;
+	border-radius: 5px;
+	position: relative;
+}
+
+.sessionChartTitle {
+	font-size: 1rem;
+	font-weight: 500;
+	color: #ffffff;
+	opacity: 0.7;
+	position: absolute;
+	top: 12px;
+	left: 25px;
+	width: 150px;
+	text-align: left;
+	margin: 0;
+}
+
+.custom-tooltip {
+	display: flex;
+	width: 39px;
+	height: 25px;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	border: none;
+}
+
+.custom-tooltip p {
+	font-size: 8px;
+	color: #000000;
+	opacity: 1;
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1250px) {
+	.sessionChartTitle {
+		top: 6px;
+		left: 12px;
+	}
+}
