@@ -8,7 +8,7 @@ import {
 } from "../data/mockedData";
 
 /* A constant that is used to determine whether to use mocked data or not. */
-export const MOCKED_DATA = false;
+export const MOCKED_DATA = true;
 
 /**
  * It fetches data from a server and returns an object with the fetched data, a boolean for loading
