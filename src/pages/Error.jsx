@@ -28,8 +28,8 @@ function Error() {
 				<br />
 				n'est pas accessible
 			</p>
-			<Link to="/">
-				<h3>Retourner sur la page d'accueil</h3>
+			<Link to="/" style={{ color: "#ff6060", fontSize: "2rem" }}>
+				<h3>Retour sur la page d'accueil</h3>
 			</Link>
 		</ErrorPageContainer>
 	);

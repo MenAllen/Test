@@ -10,11 +10,11 @@ I am in charge of this new page design
  - Visual Studio Code V1.71
  - Node V14.17
  - React Create App
- - HTML, CSS, Javascript
  - React V1.8 (Router V6.3)
  - Recharts V2.1
  - ESlint Linter
  - Prettier Code formater
+ - JSDoc V3.6
  - Styled-Components
  - P42 code analyser
 

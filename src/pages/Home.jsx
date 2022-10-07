@@ -58,12 +58,12 @@ function Home() {
 			</Welcome>
 			<Paragraph>Choisissez un utilisateur pour afficher son tableau de bord</Paragraph>
 			<Paragraph>
-				<Link to={`/user/12`}>
+				<Link to={`/user/12`} style={{ textDecoration: "none" }}>
 					<Button>
 						<em>Utilisateur</em> <em>12</em>
 					</Button>
 				</Link>
-				<Link to={`/user/18`}>
+				<Link to={`/user/18`} style={{ textDecoration: "none" }}>
 					<Button>
 						<em>Utilisateur</em> <em>18</em>
 					</Button>
