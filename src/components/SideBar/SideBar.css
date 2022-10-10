@@ -39,8 +39,7 @@ height: 100%;
 	transform: rotate(180deg);
 	color: white;
 	position: absolute;
-/*	bottom: 25px;*/
-	top: 75%;
+	bottom: 25px;
 	align-self: center;
 }
 
