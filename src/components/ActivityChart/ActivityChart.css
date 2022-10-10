@@ -1,6 +1,6 @@
 .activityChartContainer {
-	width: 58vw;
-	height: 31.5vh;
+	width: 835px;
+	height: 320px;
 	background-color: #fbfbfb;
 	border-radius: 5px;
 	position: relative;
@@ -41,3 +41,13 @@
 	font-size: 14px;
 	top: 20px;
 }
+
+/* =========================================================================================== */
+@media screen and (max-width: 1270px) {
+	.activityChartContainer {
+		width: 594px;
+		height: 227px;
+	}	
+}
+
+

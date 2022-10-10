@@ -1,7 +1,17 @@
 .PerformanceChartContainer {
-	width: 18vw;
-	height: 25.5vh;
+	width: 258px;
+	height: 263px;
 	background-color: #282d30;
 	border-radius: 5px;
 	position: relative;
 }
+
+/* =========================================================================================== */
+@media screen and (max-width: 1270px) {
+	.PerformanceChartContainer {
+		width: 172px;
+		height: 175px;
+	}	
+}
+
+
