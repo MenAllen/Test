@@ -5,9 +5,13 @@
 	background-color: #020203;
 	margin: 0;
 	width: 117px;
-	height: 91vh;
+/*	height: 91vh;*/
+height: 100%;
 	min-height: 685px;
-	z-index: 10;
+	z-index: -10;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .sidebarIcons {
@@ -35,13 +39,14 @@
 	transform: rotate(180deg);
 	color: white;
 	position: absolute;
-	bottom: 25px;
+/*	bottom: 25px;*/
+	top: 75%;
 	align-self: center;
 }
 
-/* =========================================================================================== */
+/* ===========================================================================================
 @media screen and (max-width: 1250px) {
 	.sidebarContainer {
 		height: 88vh;
 	}
-}
+}*/
